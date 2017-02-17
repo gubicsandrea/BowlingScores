@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/bowling_m"
     tools:context="com.example.android.bowlingscores.MainActivity">
 
     <LinearLayout
@@ -486,6 +487,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:textColor="@android:color/white"
                     android:text="@string/points"
                     android:textSize="@dimen/turnTextSize" />
 
@@ -549,6 +551,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white"
                 android:text=""
                 android:textSize="@dimen/turnTextSize" />
 
